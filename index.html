@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slide Puzzle</title>
+        <link rel="stylesheet" href="puzzle.css">
+        <script src="puzzle.js"></script>
+    </head>
+
+    <body>
+       <marquee behavior="" direction="scroll"> <img id="matt" src="./10.png" alt=""> <img id="title" src="./logo.png"> <img id="matt" src="./10.png" alt=""> </marquee>
+        <div class="vec">
+            <img src="./10.png" id="titles">
+
+          <br> <br>
+             <div>
+                <div id="board">
+              <!--<img src="1.jpg" id="0-0">   
+                   <img src="2.jpg" id="0-1">
+                   <img src="3.jpg" id="0-2">
+                   <img src="4.jpg" id="1-0">
+                   <img src="5.jpg" id="1-1">
+                   <img src="6.jpg" id="1-2">  
+                   <img src="7.jpg" id="2-0">
+                   <img src="8.jpg" id="2-1">
+                   <img src="9.jpg" id="2-2 "> -->
+                </div>
+                <h1>Moves: <span id="turns">0</span></h1>
+             </div>
+        </div>
+
+        <div id="modal" class="hide">
+          <div id="header"><button id="closeBtn" onclick="hideModal()">x</button></div>
+          <h1 id="message">You won!</h1>
+      </div>
+    </body>
+</html>
+<script src="puzzle.js"></script>
